@@ -14,3 +14,4 @@ llama-index-llms-mistralai==0.1.6
 mistral-haystack==0.0.1
 panel==1.4.0
 requests==2.26.0
+jupyter_bokeh

@@ -73,3 +73,12 @@ def get_web_article_text(url, file_save_name=None):
         f.write(text)
         f.close()
     return text
+
+
+def run_mistral(contents, user, chat_interface):
+    client = MistralClient(api_key=api_key)
+    messages = [ChatMessage(role="user", content=contents)]
+    chat_response = client.chat(
+        model="mistral-small-latest",
+        messages=messages)
+    return chat_response.choices[0].message.content
