@@ -1,1 +1,1 @@
-# mistral-deeplearningai
+This repository contains my practice code and exercises from the "Getting Started with Mistral" course by deeplearning.ai. For more details about the course, visit [Getting Started with Mistral](https://www.deeplearning.ai/courses/getting-started-with-mistral).
